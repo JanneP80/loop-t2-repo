@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop-t2-repo", "loop-t2-repo\loop-t2-repo.csproj", "{84503C77-516F-4204-B7B1-8B260E1BA55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop-t4", "loop-t4\loop-t4.csproj", "{A7750897-B256-43CC-89B6-B9898739789B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84503C77-516F-4204-B7B1-8B260E1BA55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84503C77-516F-4204-B7B1-8B260E1BA55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84503C77-516F-4204-B7B1-8B260E1BA55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84503C77-516F-4204-B7B1-8B260E1BA55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7750897-B256-43CC-89B6-B9898739789B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7750897-B256-43CC-89B6-B9898739789B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7750897-B256-43CC-89B6-B9898739789B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7750897-B256-43CC-89B6-B9898739789B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
