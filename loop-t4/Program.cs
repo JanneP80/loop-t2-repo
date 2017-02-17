@@ -33,7 +33,7 @@ namespace loop_t4
             else if (n < 0)
             {
                 Console.Write("Calculating... "); // negative calculation
-                for (int runningnumber = -1; runningnumber > n+1; runningnumber--)
+                for (int runningnumber = -1; runningnumber > n-1; runningnumber--)
                 {
                     Console.Write(" {0}", runningnumber); // error check line
                     negsolution = negsolution + runningnumber;
@@ -46,8 +46,8 @@ namespace loop_t4
 
             else // positive calculation
             {
-                Console.Write("Calculating... 1");
-                for (int runningnumber = 1; runningnumber < n-1; runningnumber++)
+                Console.Write("Calculating... ");
+                for (int runningnumber = 1; runningnumber < n+1; runningnumber++)
                 {
                     Console.Write(" {0}", runningnumber); // error check line
                     solution = solution + runningnumber;

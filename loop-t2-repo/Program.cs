@@ -31,7 +31,7 @@ namespace loop_t2_repo
             else // calculation
             {
                 Console.Write("Calculating... ");
-                for (int runningnumber = 1; runningnumber < n +1; runningnumber++)
+                for (int runningnumber = 1; runningnumber < n+1; runningnumber++)
                 {
                     Console.Write(" {0}", runningnumber); // error check line
                     solution = solution + runningnumber;
