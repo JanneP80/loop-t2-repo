@@ -35,17 +35,13 @@ namespace loop_t2_repo
                 {
                     Console.Write(" {0}", runningnumber); // error check line
                     solution = solution + runningnumber;
-
                 }
-
-
+                
                 message = string.Format("You gave {0} numbers to sum, the sum is {1}.", n, solution);
             }
 
             Console.WriteLine("\n" + message);
             Console.ReadKey();
-
-
         }
     }
 }

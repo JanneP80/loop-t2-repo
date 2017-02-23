@@ -10,7 +10,6 @@ namespace loop_t4
     {
         static void Main(string[] args)
         {
-
             // program sums up N numbers for negative numbers too.
 
             int n = 0;
@@ -33,13 +32,11 @@ namespace loop_t4
             else if (n < 0)
             {
                 Console.Write("Calculating... "); // negative calculation
-                for (int runningnumber = -1; runningnumber > n-1; runningnumber--)
+                for (int runningnumber = -1; runningnumber > n - 1; runningnumber--)
                 {
                     Console.Write(" {0}", runningnumber); // error check line
                     negsolution = negsolution + runningnumber;
-
                 }
-
 
                 message = string.Format("You gave {0} numbers to sum, the sum is {1}.", n, negsolution);
             }
@@ -47,20 +44,17 @@ namespace loop_t4
             else // positive calculation
             {
                 Console.Write("Calculating... ");
-                for (int runningnumber = 1; runningnumber < n+1; runningnumber++)
+                for (int runningnumber = 1; runningnumber < n + 1; runningnumber++)
                 {
                     Console.Write(" {0}", runningnumber); // error check line
                     solution = solution + runningnumber;
-
                 }
-
 
                 message = string.Format("You gave {0} numbers to sum, the sum is {1}.", n, solution);
             }
 
             Console.WriteLine("\n" + message);
             Console.ReadKey();
-
         }
     }
 }
